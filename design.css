@@ -6,17 +6,24 @@
 	text-shadow: 2px 2px #C9B7B7;
 	font-weight: bold;
 }
-#history_text{
-	font-size: 15px;
-	color: grey;
+
+
+#history{
 	text-align: right;
+	height: 28px;
 	padding-right: 13px;
-}
-#output-text{
 	font-size: 20px;
-	font-weight: bold;
+	color: grey;
+	border: 1px solid black;
+    border-radius: 5px
+}
+#output{
 	text-align: right;
+	height: 60px;
 	padding-right: 13px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 25px;
 }
 #box{
 	border-radius: 7px;
@@ -25,13 +32,7 @@
    background-color: #F0F8FA;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#display{
-	border: 1px solid black;
-	border-radius: 10px;
-	background-color: #F0F8FA;
-	margin-top: 0px;
-	height: 40px;
-}
+
 body{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('background.jpg');
 	background-repeat: no-repeat;
